@@ -1,0 +1,17 @@
+% my data 
+
+@relation student
+
+@attribute rollnum numeric
+@attribute name string
+@attribute sec string
+@attribute dept {cse,ece,it,eee,mech}
+@attribute phone numeric
+@attribute examStatus {pass,fail}
+
+@data
+553,Sreelekha,a,cse,7337246405,fail
+560,krishnasiri,b,eee,7337246408,pass
+543,pravalika,a,it,7337246427,pass
+545,neelima,a,mech,9515813523,fail
+528,ragha,b,cse,6754839008,pass
